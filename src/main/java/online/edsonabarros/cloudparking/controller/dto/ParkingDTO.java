@@ -1,5 +1,6 @@
 package online.edsonabarros.cloudparking.controller.dto;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonInclude;
 
 import java.time.LocalDateTime;
@@ -13,7 +14,9 @@ public class ParkingDTO {
     private String state;
     private String model;
     private String color;
+    @JsonFormat(pattern = "dd/MM/yyyy HH:mm")
     private LocalDateTime entryDay;
+    @JsonFormat(pattern = "dd/MM/yyyy HH:mm")
     private LocalDateTime exitDay;
     private Double bill;
 
