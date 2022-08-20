@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: online.edsonabarros.cloudparking.CloudParkingApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.067 s - in online.edsonabarros.cloudparking.CloudParkingApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.562 s - in online.edsonabarros.cloudparking.CloudParkingApplicationTests
