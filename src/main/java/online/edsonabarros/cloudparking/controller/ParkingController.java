@@ -1,6 +1,7 @@
 package online.edsonabarros.cloudparking.controller;
 
 
+import io.swagger.annotations.ApiOperation;
 import online.edsonabarros.cloudparking.controller.dto.ParkingCreateDTO;
 import online.edsonabarros.cloudparking.controller.dto.ParkingDTO;
 import online.edsonabarros.cloudparking.controller.mapper.ParkingMapper;
@@ -35,6 +36,7 @@ public class ParkingController {
     *
     * */
     @GetMapping
+    @ApiOperation("Find all parkings")
     public ResponseEntity <List<ParkingDTO>> findAll(){
         List<Parking> parkingList = parkingService.findAll();
         List<ParkingDTO> result = parkingMapper.toParkingDTOList(parkingList);
