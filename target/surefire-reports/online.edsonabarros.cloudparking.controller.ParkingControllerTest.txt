@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: online.edsonabarros.cloudparking.controller.ParkingControllerTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.012 s - in online.edsonabarros.cloudparking.controller.ParkingControllerTest
